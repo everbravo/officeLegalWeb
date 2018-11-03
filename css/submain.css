@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0; 
+}
+
+body{
+    font-family: 'Slabo 27px', serif;
+    background:  #ecf0f1;
+}
+
+p {
+    color: #524c56;
+    font-size: 110%;
+    line-height: 155%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+
+}
+
+h3 {
+    font-size: 175%;
+    line-height: 155%;
+    font-weight: 500;
+    color: #524c56;
+    text-align: center;
+    text-transform: uppercase;
+    padding: o;
+
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+img{
+    width: 350px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 0rem;
+}
+
+.clearfix-padding{
+    clear: both;
+    padding: 2%;
+}

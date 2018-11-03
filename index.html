@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>LegalOffice - HOME</title>
+    <title>LegalOffice</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/pics/unisinu-logo.ico" type="image/vnd.microsoft.icon" id="favicon" />
     <!-- BXSLIDERS -->
@@ -38,16 +38,16 @@
                                 <a href="index.html">Inicio</a>
                             </li>
                             <li>
-                                <a href="#aboutUs">Quienes Somos?</a>
+                                <a href="#aboutUs">¿Quienes Somos?</a>
                             </li>
                             <li>
                                 <a href="#attentionAreas">Areas de Atencion</a>
                             </li>
                             <li>
-                                <a href="#contactUs">Contactenos</a>
+                                <a href="#formatoS">Formulario Juridico</a>
                             </li>
                             <li>
-                                <a href="#">Iniciar Sesión</a>
+                                <a href="#pqrs">Presentar PQRS</a>
                             </li>
                         </ul>
                     </nav>
@@ -75,9 +75,12 @@
                 <img src="img/pics/consultorio_juridico.png" alt="Imagen consultorio juridico virtual" id="imgAU">
             </div>
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, inventore? Sit,
-                     quasi ea perferendis ipsum consectetur inventore iure doloribus sint ad,
-                     minus dignissimos voluptatibus sunt delectus possimus dolorum ex rem.
+                <p>
+                    Somos una institución de educación superior, 
+                    de origen cordobés, que se caracteriza por su proceso de excelencia, 
+                    crecimiento y constante avance, y que busca contribuir al desarrollo de la región desde su misión educativa y de responsabilidad social, 
+                    el consultorio juridico de la universidad del Sinú busca alludar especial mente a personas de escasos recursos 
+                    que no cuenten con los recursos economicos para trasladarse a diferentes lugares de la ciudad de cartagena, con el fin de gestionar sus tramites y/0 deudas legales.
                 </p>
             </div>
     </section>
@@ -88,51 +91,63 @@
             <h3 class="title">Areas de Atencion</h3>
             <div class="one-third-padding" id="attentionAreas">
                 <h3>Conciliación</h3>
-                <img src="img/pics/conciliacion.png" alt="img conciliación">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Provident atque fugit ratione dolores? Et unde quisquam rerum iusto ab sunt.
-                </p>
+                <a href="resources/conciliacion.html">
+                    <img src="img/pics/conciliacion.png" alt="img conciliación">
+                </a>
             </div>
             <div class="one-third-padding" id="attentionAreas">
                 <h3>Familia</h3>
-                <img src="img/pics/familia.png" alt="img familia">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Provident atque fugit ratione dolores? Et unde quisquam rerum iusto ab sunt.
-                </p>
+                <a href="resources/famila.html">
+                    <img src="img/pics/familia.png" alt="img familia">
+                </a>
             </div>
             <div class="one-third-padding" id="attentionAreas">
                 <h3>Laboral</h3>
-                <img src="img/pics/laboral.png" alt="img laboral">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Provident atque fugit ratione dolores? Et unde quisquam rerum iusto ab sunt.
-                </p>
+                <a href="resources/laboral.html">
+                    <img src="img/pics/laboral.png" alt="img laboral">
+                </a>
             </div>
             <div class="one-third-padding" id="attentionAreas">
                 <h3>Patrimonial</h3>
-                <img src="img/pics/patrimonial.png" alt="img patrimonial">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Provident atque fugit ratione dolores? Et unde quisquam rerum iusto ab sunt.
-                </p>
+                <a href="resources/patrimonial.html">
+                    <img src="img/pics/patrimonial.png" alt="img patrimonial">
+                </a>
             </div>
             <div class="one-third-padding" id="attentionAreas">
                 <h3>Penal</h3>
-                <img src="img/pics/penal.png" alt="img penal">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Provident atque fugit ratione dolores? Et unde quisquam rerum iusto ab sunt.
-                </p>
+                <a href="resources/penal.html">
+                    <img src="img/pics/penal.png" alt="img patrimonial">
+                </a>
             </div>
             <div class="one-third-padding" id="attentionAreas">
                 <h3>Público</h3>
-                <img src="img/pics/publico.png" alt="img publico">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Provident atque fugit ratione dolores? Et unde quisquam rerum iusto ab sunt.
-                </p>
+                <a href="resources/publico.html">
+                    <img src="img/pics/publico.png" alt="img publico">
+                </a>
             </div>
     </section>
     <div class="clearfix-padding"></div>
 
-<!--Contact Us-->
-<h3 class="title" id="contactUs">Contactenos</h3>
+    <!--Formato Solicitud-->
+    <h3 class="title" id="formatoS">Formato de Solicitud Juridica.</h3>
+    <div>
+        <p class="parrafo">
+            Para diligenciar el formato de consultoria juridica por favor haga CLIK en la siguiente imagen.
+        </p>
+        <table class="text-center tabla" class="parrafo">
+            <tr>
+                <td>
+                    <a href="https://goo.gl/forms/DdoYf3FmP1V83ILR2" target="_blank">
+                        <img src="img/pics/form.png" alt="Formulario">
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="clearfix-padding"></div>
+
+<!--PQRS-->
+<h3 class="title" id="pqrs">PQRS</h3>
 <div>
     <!--formulario-->
     <form action="controllerPHP/control.php" method="POST">
@@ -170,17 +185,20 @@
     <div class="one-third-padding" id="more">
         <h3 class="title">Horario de Atención </h3>
         <div>
-            <p>- Lorem ipsum dolor sit amet.</p>
-            <p>- Lorem ipsum dolor sit amet.</p>
-            <p>- Lorem ipsum dolor sit amet.</p>
+            <p>
+                <i class="far fa-clock">   Lunes a Viernes 8:00 am - 12:00 am, 2:00 pm - 5:00 pm.</i>
+            </p> 
+            <p>
+                <i class="far fa-clock">   Sabados 8:00 am - 2:00 pm.</i> 
+            </p>  
         </div>
     </div>
     <div class="one-third-padding" id="more">
-        <h3 class="title">Ubicacion</h3>
+        <h3 class="title">Ubicación</h3>
         <div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31395.353453564814!2d-75.50793205929364!3d10.388243086110238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9bbae6de22653615!2sUniversidad+del+Sin%C3%BA+Sede+Campus+santillana!5e0!3m2!1ses-419!2sco!4v1540186932479" width="400" height="250" frameborder="0" style="border:0" allowfullscreen class="center"></iframe>
             <ul>
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, aperiam!</li>
+                <li>Dir Av. El Bosque, Transv. 54 N° 30 - 729</li>
             </ul>
         </div>
         </div>
@@ -188,9 +206,11 @@
             <h3 class="title">Tel-Contacto</h3>
             <div>
                 <p>
-                    Lorem ipsum dolor, 
-                    sit amet consectetur adipisicing elit. 
-                    Explicabo fuga similique vitae itaque sunt officiis.
+                    <i class="fas fa-phone"> 01 8000 942 488 </i>
+                    <br/>
+
+                    <i class="fas fa-phone"> (57) (5) 6517013 PBX</i>
+                    <br/>
                 </p>
             </div>
         </div>
@@ -213,10 +233,10 @@
                             <a href="#attentionAreas">Areas de Atencion</a>
                         </li>
                         <li>
-                                <a href="#contactUs">Contactenos</a>
+                                <a href="#formatoS">Formulario Juridico.</a>
                         </li>
                         <li>
-                                <a href="#">Inicio Sesión</a>
+                                <a href="#pqrs">Presentar PQRS</a>
                         </li>
                     </ul>
                 </div>
@@ -234,7 +254,7 @@
                             </a>
                         </li>
                         <li>
-                                <a href="https://www.facebook.com/eveeal" target="_blank">
+                                <a href="https://www.facebook.com/" target="_blank">
                                 <i class="fab fa-facebook"></i>
                                 </a>
                             </li>
@@ -256,7 +276,7 @@
     
         <footer class="footer-second">
             <p>
-                <a href="https://www.youtube.com/channel/UClYdDV2MBtLpCxTUPBRNwTA?view_as=subscriber" target="_blank">Everbravo &copy; all rigth reserved</a> 
+                <a href="https://www.youtube.com/" target="_blank"> &copy; all rigth reserved</a> 
             </p>
         </footer> 
 </body>
